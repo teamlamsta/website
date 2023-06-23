@@ -1,18 +1,18 @@
 .hero-title {
   font-family: $font-family-cursive;
   font-weight: $font-weight-bold;
-  font-size: map-get($font-sizes, 9);
+  font-size: map-get($font-sizes, 8);
   color: $navy-blue;
   margin-bottom: 5px;
   position: relative;
   z-index: 1;
 
   @include media-breakpoint-up(xl){ 
-    font-size: map-get($font-sizes, 13);
+    font-size: map-get($font-sizes, 12);
   }
 
   @include media-breakpoint-up(xxl){ 
-    font-size: map-get($font-sizes, 14);
+    font-size: map-get($font-sizes, 13);
   }
 
   &:before {
